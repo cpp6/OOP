@@ -213,4 +213,6 @@ CREATE TABLE students (
 
 javac StudentManagement.java
 java -cp ".;mysql-connector-j-9.6.0.jar" StudentManagement
+
+⚠️⚠️ REMOVE / DELETE ABOVE COMMENTED LINES AFTER USE (from /*) !!! ⚠️⚠️
 */
