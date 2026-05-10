@@ -38,7 +38,6 @@ public class EmployeeDemo {
 
         Scanner sc = new Scanner(System.in);
 
-        // Taking input at runtime
         System.out.print("Enter Employee ID: ");
         int id = sc.nextInt();
         sc.nextLine();  
