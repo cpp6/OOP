@@ -15,8 +15,6 @@ abstract class Vehicle {
 }
 
 class Car extends Vehicle {
-
-    // Implement abstract methods
     void startEngine() {
         System.out.println("Car engine started with key.");
     }
@@ -35,7 +33,6 @@ class Car extends Vehicle {
 }
 
 class Bike extends Vehicle {
-
     void startEngine() {
         System.out.println("Bike engine started with kick or electric start.");
     }
