@@ -28,7 +28,6 @@ class Product {
 		return price * quantity;
 	}
 
-	// Function for applying discount
 	static double applyDiscount(double total) {
 		if (total > 500) {
             return total * 0.85; // 15% discount
