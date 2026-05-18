@@ -8,7 +8,7 @@ public class EmployeeManagement {
     public static void main(String args[]){
         try (Connection con = DriverManager.getConnection(URL, USER, PASSWORD);
             Scanner sc = new Scanner(System.in)){
-                int choice;
+    
                 do{
                     System.out.println("========== Employee Management System =============");
                     System.out.println("1. Add employee");
