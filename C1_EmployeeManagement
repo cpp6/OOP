@@ -17,7 +17,7 @@ public class EmployeeManagement {
                     System.out.println("4. View employee");
                     System.out.println("5. Exit");
                     System.out.println("Enter your choice: ");
-                    choice = sc.nextInt();
+                    int choice = sc.nextInt();
 
                     switch(choice){
                         case 1:
